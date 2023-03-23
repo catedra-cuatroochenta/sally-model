@@ -6,8 +6,8 @@ import com.cuatroochenta.catedra.enums.JointType;
 public class Joint {
     private Position position;
     private Position screenPosition;
-    private JointType jointType;
-    private JointStatus jointStatus;
+    private JointType type;
+    private JointStatus status;
 
     public Joint() {
     }
@@ -28,19 +28,19 @@ public class Joint {
         this.screenPosition = screenPosition;
     }
 
-    public JointType getJointType() {
-        return jointType;
+    public JointType getType() {
+        return type;
     }
 
-    public void setJointType(JointType jointType) {
-        this.jointType = jointType;
+    public void setType(JointType type) {
+        this.type = type;
     }
 
-    public JointStatus getJointStatus() {
-        return jointStatus;
+    public JointStatus getStatus() {
+        return status;
     }
 
-    public void setJointStatus(JointStatus jointStatus) {
-        this.jointStatus = jointStatus;
+    public void setStatus(JointStatus status) {
+        this.status = status;
     }
 }
