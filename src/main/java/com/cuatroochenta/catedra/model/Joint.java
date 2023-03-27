@@ -1,13 +1,10 @@
 package com.cuatroochenta.catedra.model;
 
-import com.cuatroochenta.catedra.enums.JointStatus;
-import com.cuatroochenta.catedra.enums.JointType;
-
 public class Joint {
     private Position position;
     private Position screenPosition;
-    private JointType type;
-    private JointStatus status;
+    private int type;
+    private int status;
 
     public Joint() {
     }
@@ -28,19 +25,19 @@ public class Joint {
         this.screenPosition = screenPosition;
     }
 
-    public JointType getType() {
+    public int getType() {
         return type;
     }
 
-    public void setType(JointType type) {
+    public void setType(int type) {
         this.type = type;
     }
 
-    public JointStatus getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public void setStatus(JointStatus status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 }
