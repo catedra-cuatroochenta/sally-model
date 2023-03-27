@@ -1,8 +1,5 @@
 package com.cuatroochenta.catedra.model;
 
-import com.cuatroochenta.catedra.enums.JointStatus;
-import com.cuatroochenta.catedra.enums.JointType;
-
 public class Joint {
     private Position position;
     private Position screenPosition;
